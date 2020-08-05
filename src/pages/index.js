@@ -1,5 +1,4 @@
 import React from "react"
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+export default () => <div>I love big titties</div>
+
