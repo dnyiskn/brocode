@@ -7,7 +7,7 @@ export const MainImage = ({fixed}) => {
 
     const data = useStaticQuery(graphql`
         query {
-            imageSharp(fixed: {originalName: {eq: "lisboneve.jpg" }}) {
+            imageSharp(fixed: {originalName: {eq: "colorful.jpg" }}) {
                 fixed {
                     ...GatsbyImageSharpFixed
                 }
